@@ -1,0 +1,97 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+h1{
+	font-family: 'Noto Sans JP', sans-serif;
+	color: #e5df10;
+  -webkit-text-stroke: 2px black;
+  text-shadow: 3px 2px 3px white;
+	text-align: center;
+	font-size: 60px;
+}
+
+ul{
+  font-size: 24px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2fc4b2;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: white;
+  background-color: #333;
+}
+
+.active {
+  color: white;
+}
+
+#titulo{
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 3px 3px 3px white;
+}
+
+.figureImg{
+  width:30%;
+  margin-left:0%;
+  background-color: yellow;
+  display: inline-block;
+}
+
+.figureImg2{
+  width:30%;
+  margin-left:0%;
+  background-color: #2fc4b2;
+  display: inline-block;
+}
+
+figcaption{
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer{
+  position:absolute;
+  height: 40%;
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  background-color: #d63447;
+}
+
+#facebook,
+#instagram{
+	height: 50px;
+	width: 50px;
+}
+
+#datos_contacto{
+	text-align: left;
+}
+
+#redes_sociales{
+	text-align: right;
+}
+
+#nombre{
+	text-align: center;
+}
